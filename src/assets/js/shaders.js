@@ -32,7 +32,7 @@ export const fragmentShader = `
     struct LensDistortion {
         vec2 distortedUV;
         float inside;
-    }
+    };
 
     LensDistortion getLensDistortion(
         vec2 p,
