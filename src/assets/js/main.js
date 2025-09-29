@@ -1,9 +1,7 @@
+import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.180.0/three.module.js";
+
 import { slides } from "./slides.js";
 import { vertexShader, fragmentShader } from "./shaders.js";
-
-import * as THREE from "three";
-import gsap from "gsap";
-import { SplitText } from "gsap/SplitText";
 
 gsap.registerPlugin(SplitText);
 gsap.config({ nullTargetWarn: false });
